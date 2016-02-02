@@ -1,0 +1,27 @@
+
+A set of UGens implementing various physically inspired
+synthesis models. These are all taken from R. W. Berry:
+EXPERIMENTS IN COMPUTER CONTROLLED ACOUSTIC MODELLING (A STEP
+BACKWARDS ??), ICMC Proceedings 1988, available from
+http://www.ron-berry.co.uk/RBacmodelling.pdf
+
+Winter 2007/08 Oswald Berthold
+
+The full package should eventually contain 
+ - Band-pass Filter
+ - Filterbank and Vocoder
+ - Waveguide models
+ - Room simulation
+ - FoF
+
+but as most of it needs more work, there's only the Waveguide
+models included.
+
+To build on Linux:
+ - extract the X75PhysMod.tar.gz file on the same level as our
+   SuperCollider source directory
+ - cd X75PhysMod
+ - scons install
+
+To build on OSX:
+pretty much same as above, scons should get you there
